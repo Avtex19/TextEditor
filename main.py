@@ -67,4 +67,6 @@ bold_button.config(font=('arial', 20, 'bold'), bg="DodgerBlue2", fg="black")
 textarea = Text(window)
 textarea.grid(row=2, columnspan=5)
 
-mainloop()
+if __name__ == "__main__":
+    mainloop()
+
